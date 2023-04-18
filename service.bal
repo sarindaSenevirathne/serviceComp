@@ -1,7 +1,7 @@
 import ballerina/http;
 
 
-service / on new http:Listener(9090) {
+service / on new http:Listener(8090) {
 
     resource function get .() returns json|error {
         
